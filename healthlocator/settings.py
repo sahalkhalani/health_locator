@@ -54,7 +54,7 @@ ROOT_URLCONF = 'healthlocator.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['healthlocator/templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
